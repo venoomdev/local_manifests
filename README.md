@@ -4,8 +4,8 @@ To initialize a shallow clone, which will save even more space & time, use a com
 
 ```bash
 repo init --depth=1 -u git://github.com/AospExtended/manifest.git -b 12.x
-mkdir .repo/local_manifest
-curl -L -o .repo/local_manifest/aex_surya.xml -O -L https://raw.githubusercontent.com/xiaomeme-surya/local_manifests/12.x/aex_surya.xml
+mkdir .repo/local_manifests
+curl -L -o .repo/local_manifests/aex_surya.xml -O -L https://raw.githubusercontent.com/xiaomeme-surya/local_manifests/12.x/aex_surya.xml
 ```
   
 Then to sync up:
