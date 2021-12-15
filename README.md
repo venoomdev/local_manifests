@@ -1,11 +1,11 @@
-# AospExtended For Poco X3 NFC
+# CrDroid For Poco X3 NFC
 
 To initialize a shallow clone, which will save even more space & time, use a command like this:
 
 ```bash
-repo init -u https://github.com/Spark-Rom/manifest -b spark
+repo init -u git://github.com/crdroidandroid/android.git -b 11.0
 mkdir .repo/local_manifests
-curl -L -o .repo/local_manifests/spark_surya.xml -O -L https://raw.githubusercontent.com/xiaomeme-surya/local_manifests/spark/spark_surya.xml
+curl -L -o .repo/local_manifests/cr_surya.xml -O -L https://raw.githubusercontent.com/xiaomeme-surya/local_manifests/crdroid/cr_surya.xml
 ```
   
 Then to sync up:
@@ -19,5 +19,5 @@ Finally to build:
 
 ```bash
 . build/envsetup.sh
-lunch spark_surya-userdebug
+lunch lineage_surya-userdebug
 time make bacon -j16
