@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Removed repos -->
+  <remove-project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" />
+  <remove-project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" />
+  <remove-project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" />
+
+  <!-- Projects -->
+  <project name="xiaomeme-surya/android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="github" revision="caf-sm8150" />
+  <project name="xiaomeme-surya/android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="github" revision="caf-sm8150" />
+  <project name="xiaomeme-surya/android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="github" revision="caf-sm8150" />
+
+  <!-- Hardware -->
+  <project name="ArrowOS-Devices/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="arrow-12.0" />
+
+  <!-- Packages -->
+  <project name="ArrowOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="arrow-12.0" />
+
+  <!-- Xiaomi Projects -->
+  <project name="xiaomeme-surya/android_device_xiaomi_surya" path="device/xiaomi/surya" remote="github" revision="lineage-19.0 />
+  <project name="xiaomeme-surya/android_vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="github" revision="lineage-19.0" />
+  <project name="xiaomeme-surya/android_kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="github" revision="lineage-19.0" />
+
+</manifest>
