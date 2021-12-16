@@ -1,11 +1,11 @@
-# CrDroid For Poco X3 NFC
+# LineageOS For Poco X3 NFC
 
 To initialize a shallow clone, which will save even more space & time, use a command like this:
 
 ```bash
-repo init -u git://github.com/crdroidandroid/android.git -b 11.0
+repo init -u git://github.com/LineageOS/android.git -b lineage-19.0
 mkdir .repo/local_manifests
-curl -L -o .repo/local_manifests/cr_surya.xml -O -L https://raw.githubusercontent.com/xiaomeme-surya/local_manifests/crdroid/cr_surya.xml
+curl -L -o .repo/local_manifests/lineage_surya.xml -O -L https://raw.githubusercontent.com/xiaomeme-surya/local_manifests/lineage-19.0/lineage_surya.xml
 ```
   
 Then to sync up:
