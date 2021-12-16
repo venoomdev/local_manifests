@@ -5,6 +5,7 @@
   <remove-project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" />
   <remove-project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" />
   <remove-project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" />
+  <remove-project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
 
   <!-- Projects -->
   <project name="xiaomeme-surya/android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="github" revision="caf-sm8150" />
