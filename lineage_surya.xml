@@ -14,7 +14,10 @@
 
   <!-- Hardware -->
   <project name="ArrowOS-Devices/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="arrow-12.0" />
-
+  
+  <!-- Sepolicy -->
+  <project name="TheStrechh/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="github" revision="lineage-19.0" />
+  
   <!-- Packages -->
   <project name="ArrowOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="arrow-12.0" />
 
