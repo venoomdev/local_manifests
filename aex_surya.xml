@@ -31,7 +31,7 @@
   </project>
 
   <!-- Packages -->
-  <project name="PixelExperience/packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="twelve" />
+  <project name="xiaomeme-surya/packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="twelve" />
 
   <!-- Xiaomi Projects -->
   <project name="xiaomeme-surya/android_device_xiaomi_surya" path="device/xiaomi/surya" remote="github" revision="12.x" />
